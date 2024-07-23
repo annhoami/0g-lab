@@ -27,7 +27,7 @@ wget -O ogstorage-auto.sh https://raw.githubusercontent.com/annhoami/0g-lab/main
 ## RPC Endpoint
 
 ```bash
-https://0g-rpc.dongqn.com
+https://evm-rpc.0gchain-testnet.unitynodes.com
 ```
 
 ## Log
