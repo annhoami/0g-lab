@@ -21,7 +21,7 @@ https://scan-testnet.0g.ai/
 ## Install
 
 ```bash
-wget -O ogstorage-auto.sh https://raw.githubusercontent.com/thenhthang/vinnodes/main/OG/ogstorage-auto.sh && chmod +x ogstorage-auto.sh && ./ogstorage-auto.sh
+wget -O ogstorage-auto.sh https://raw.githubusercontent.com/annhoami/0g-lab/main/ogstorage-auto.sh && chmod +x ogstorage-auto.sh && ./ogstorage-auto.sh
 ```
 
 ## RPC Endpoint
