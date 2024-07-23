@@ -1,10 +1,5 @@
 #!/bin/bash
 
-echo -e "\e[1m\e[32m1. Updating packages... \e[0m" && sleep 1
-# update
-sudo apt-get update
-sudo apt-get install clang cmake build-essential -y
-
 echo -e "\e[1m\e[32m2. Installing dependencies... \e[0m" && sleep 1
 # packages
 
@@ -25,7 +20,6 @@ sudo systemctl disable zgs.service
 sudo rm /etc/systemd/system/zgs.service
 
 # git clone  & build
-sudo apt install git
 git clone https://github.com/0glabs/0g-storage-node.git
 
 # IF YOU INSTALLED V0.3.3, START FROM HERE
