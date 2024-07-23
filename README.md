@@ -41,3 +41,9 @@ Success
 ```bash
 2024-06-13T05:53:16.701228Z DEBUG log_entry_sync::sync_manager::log_entry_fetcher: from block number 549992, latest block number 550084, confirmation delay 12
 ```
+
+## Restart
+
+```bash
+sudo systemctl stop zgs && sudo systemctl disable zgs && sudo rm /etc/systemd/system/zgs.service && rm -rf $HOME/0g-storage-node
+```
